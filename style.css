@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: #eff2f7;
+}
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+svg{
+    fill: rgba(0, 0, 0, 0.1);
+    position: absolute;
+}
+.shape-a{
+    bottom: -80px;
+    left: -80px;
+}
+.shape-b{
+    top: -30px;
+    right: 70%;
+}
+.shape-c{
+    top: -300px;
+    right: -300px;
+}
+.shape-d{
+    top: 200px;
+    right: 500px;
+}
